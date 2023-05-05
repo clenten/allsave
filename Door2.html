@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Door2</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">               
+</head>
+<body>
+    <div class="img">
+        <div class="img-content">
+            <h1>만수 쇼핑몰</h1>
+        </div>
+        <div class="img-cover">
+        </div>
+    </div>
+</body>
+<style>
+    .img{
+    position: relative;
+    background-image: url(./img/img1.jpg);                                                               
+    height: 100vh;
+    background-size: cover;
+}
+    .img-cover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #0a0a0a;                                                                 
+    z-index:1;
+}
+    .img-content{
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);                                                                   
+     font-size:5rem;
+     color: white;
+     z-index: 2;
+     text-align: center;
+}
+
+
+</style>
+
+</html>
